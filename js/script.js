@@ -9,6 +9,7 @@ jQuery(document).ready(function( $ ) {
             animate1.removeClass('animate-open');
         });
     });
+    // close button
     $('.popupCloseButton').click(function() {
         $('.contact-wrapper').hide();
     })
